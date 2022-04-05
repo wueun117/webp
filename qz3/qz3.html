@@ -1,9 +1,14 @@
-document.addEventListener('keydown',putout); 
-var keyin;
-
-function putout()
-{
-    keyin = document.getElementById("text").value;
-    document.getElementById("顯示螢幕").innerText = keyin;
-    setTimeout(putout,10);
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>wueun qz3</title>
+    </head>
+    <body>
+        <h1>打字機遊戲</h1>
+        <p>輸入：</p>
+        <input id="text" type="text">
+        <p id = "顯示螢幕"></p>
+        <script src="qz3.js"></script>
+    </body>
+</html>
